@@ -3,13 +3,24 @@ body {
   margin: 0;
 }
 
-h1 {
+.profile {
   align-items: center;
-  color: white;
   display: flex;
-  font-family: sans-serif;
-  font-size: 5em;
+  flex-flow: column;
   height: 100vh;
   justify-content: center;
+}
+
+img {
+  border-radius: 100%;
+  box-shadow: 0 0 20px black;
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 5em;
   text-shadow: 0 0 20px black;
 }
